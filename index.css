@@ -1,0 +1,46 @@
+.container{
+    height: 500px;
+    width: 600px;
+    border: 2px solid red;
+    display: flex;
+    
+    overflow-x: scroll;
+}
+.container .a{
+    height: 200px;
+    width: 300px;
+    background-image: url("./fruite-item-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+.container .b{
+    height: 200px;
+    width: 300px;
+    background-image: url("./fruite-item-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}.container .c{
+    height: 200px;
+    width: 300px;
+    background-image: url("./fruite-item-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}.container .d{
+    height: 200px;
+    width: 300px;
+    background-image: url("./fruite-item-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+.container .e{
+    height: 200px;
+    width: 300px;
+    background-image: url("./fruite-item-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
